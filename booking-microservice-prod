@@ -1,1 +1,2 @@
-booking-microservice-prod.yml
+booking:
+	property: Booking Profile Prod
