@@ -1,11 +1,11 @@
 booking:
-property: Booking Profile Dev
+	property: Booking Profile Dev
 spring:
-jpa:
-hibernate:
-ddl-auto: update
-show-sql: true
-generate-ddl: true
-properties:
-hibernate:
-dialect: org.hibernate.dialect.MySQLDialect
+	jpa:
+		hibernate:
+			ddl-auto: update
+		show-sql: true
+		generate-ddl: true
+		properties:
+			hibernate:
+				dialect: org.hibernate.dialect.MYSQLDialect
