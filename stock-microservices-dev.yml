@@ -1,6 +1,11 @@
-booking:
- property: Booking Profile Dev Update
+stock:
+ property: Stock Profile Dev Update
 spring:
+  sql:
+   init:
+    mode: always
+  datasource:
+   driver-class-name: com.mysql.cj.jdbc.Driver
   jap:
    hbiernate:
     ddl-auto: update
